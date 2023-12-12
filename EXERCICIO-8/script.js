@@ -8,7 +8,7 @@
 let valor1 = Number(prompt('digite o primeiro valor'));
 let valor2 = Number(prompt('digite o segundo valor'));
 
-if(valor1 = valor2) {
+if(valor1 === valor2) {
     console.log('Números iguais');
     document.write('Números iguais');
 
@@ -16,7 +16,7 @@ if(valor1 = valor2) {
     console.log('Primeiro é maior');
     document.write('Primeiro é maior');
 
-}  else if(valor1 < valor2) { 
+}  else  { 
     console.log('Segundo maior');
     document.write('Segundo maior');}
     
